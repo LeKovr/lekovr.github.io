@@ -1,5 +1,7 @@
 # Pages
 
-## Contents
+## CV
 
-* [Theme 1](p170615.md)
+* [ru](cv/ru.md)
+* [en](cv/en)
+
