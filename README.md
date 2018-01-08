@@ -2,6 +2,6 @@
 
 ## CV
 
-* [ru](cv/ru.md)
-* [en](cv/en)
+* [Резюме (ru)](cv/ru)
+* [CV (en)](cv/en)
 
