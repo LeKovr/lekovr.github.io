@@ -119,17 +119,17 @@ C 2006г работаю удаленно на полную ставку и пр�
 
 ### Проекты:
 
-* 2017. [dcape](https://github.com/dopos/dcape) (docker, bash)
-* 2016. [dbrpc](https://github.com/LeKovr/dbrpc) (golang, postgresql)
-* 2012. [formEV](https://github.com/LeKovr/formEV) (javascript)
-* 2010. [PGWS](https://github.com/LeKovr/pgws). JSON-RPC интерфейс к хранимым процедурам БД (PostgreSQL/plpgsql, perl, javascript), 2010.
-* 2009. CCE. Эмулятор работы колл-центра, по заказу ОСС (PostgreSQL/plpgsql, OpenOffice.org Base), 2009.
-* 2008. JQ. Система гарантированной тарификации на базе очереди задач (perl, PostgreSQL/plpgsql), 2008.
-* 2008. JAST::Wiki.Система поддержки документации (mod_perl), 2008.
-* 2007. JAST. Ядро вебсервера b2b проекта (mod_perl, PostgreSQL/plpgsql), 2007.
-* 2006. OverSSIDB. БД управления web-интерфейсом (mod_perl, PostgreSQL/plpgsql), 2006.
-* 2005. "Горячий" биллинг с поддержкой кредитов и абонплат (PostgreSQL/plpgsql, gnu-Radius), 2005.
-* 2004. [OverSSI](http://sourceforge.net/projects/overssi). Конфигурируемый через SSI web-интерфейс к БД (mod_perl, PostgreSQL/plpgsql)
+* 2017, [dcape](https://github.com/dopos/dcape) (docker, bash)
+* 2016, [dbrpc](https://github.com/LeKovr/dbrpc) (golang, postgresql)
+* 2012, [formEV](https://github.com/LeKovr/formEV) (javascript)
+* 2010, [PGWS](https://github.com/LeKovr/pgws). JSON-RPC интерфейс к хранимым процедурам БД (PostgreSQL/plpgsql, perl, javascript), 2010.
+* 2009, CCE. Эмулятор работы колл-центра, по заказу ОСС (PostgreSQL/plpgsql, OpenOffice.org Base), 2009.
+* 2008, JQ. Система гарантированной тарификации на базе очереди задач (perl, PostgreSQL/plpgsql), 2008.
+* 2008, JAST::Wiki.Система поддержки документации (mod_perl), 2008.
+* 2007, JAST. Ядро вебсервера b2b проекта (mod_perl, PostgreSQL/plpgsql), 2007.
+* 2006, OverSSIDB. БД управления web-интерфейсом (mod_perl, PostgreSQL/plpgsql), 2006.
+* 2005, "Горячий" биллинг с поддержкой кредитов и абонплат (PostgreSQL/plpgsql, gnu-Radius), 2005.
+* 2004, [OverSSI](http://sourceforge.net/projects/overssi). Конфигурируемый через SSI web-интерфейс к БД (mod_perl, PostgreSQL/plpgsql)
 * Биллинг оператора связи (mod_perl, PostgreSQL/plpgsql), 2003.
 * Библиотека построения диаграмм по XML спецификации (Linux, C, libxml, libgd2), 2002.
 * ПО для серверов публикации прайс-листов www.farma.ru, www.price.kuban.su (mod_perl, HTML::Mason, PostgreSQL), 2001.
