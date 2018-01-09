@@ -14,15 +14,15 @@ Programmer with an experience of over 20 years. backend programming mostly, but 
 
 [Tender.Pro](//www.tender.pro), Moscow
 
-**The management of IT services of the company as a part of**
+**The management of company's IT teams**
 
-* IT project Tender.Pro
-* groups of back-end development (sql, elixir)
+* www.tender.pro support and development team (perl, sql, js)
+* back-end development teams (sql, elixir)
 * front-end development team (js, jquery, react)
 
 **Official duties**
 
-* Project operation software
+* Teams coordination
 * Designing the architecture of services and the interaction between them
 * Implementation of key architectural moments (plpgsql, golang, docker)
 * Analysis of functional requirements and their alignment with product structure
@@ -137,7 +137,7 @@ In these projects I was either the only developer or involved the team after imp
 
 ## Education 
 
-Higher, 1989-1994, Kuban State University, Krasnodar Faculty: Applied Mathematics
+Higher, 1989-1994, Kuban State University, Krasnodar. Faculty of Applied Mathematics
 
 ## Languages 
 
@@ -153,7 +153,10 @@ Higher, 1989-1994, Kuban State University, Krasnodar Faculty: Applied Mathematic
 ## Personal data 
 
 * 10/23/1972
-* +7 918 4304451
+* +7 (918) 430 44 51
 * lekovr@gmail.com
 * https://github.com/LeKovr
 
+---
+
+http://lekovr.github.io/cv/en/
