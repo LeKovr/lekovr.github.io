@@ -1,8 +1,10 @@
 # Kovrizhkin Alexey Anatolyevich
 <img align="left" width="100" height="100" src="/static/img/ak100.png">
-I am a programmer, but I do not write to order. I'm not so much interested in software as I'm concerned about how satisfied users are with this software. If you need to attract (or replace) coders or admins for this - this experience I have. But my main motivation is to make this world better.
 
-I'm looking for a business that needs such a specialist.
+> Pleasure in the job puts perfection in the work.
+> Aristotle
+
+Programmer with an experience of over 20 years. backend programming mostly, but I have experience in administration and in the front. Not limited to coding and trying to do everything possible for the success of the project as a whole.
 
 # Experience 
 
