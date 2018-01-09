@@ -63,7 +63,7 @@ With the growth in the range of tasks to be performed, the structure of the unit
 
 **June 1999 - July 2002**
 
-FC "Farma Plus", Krasnodar
+A pharmaceutical company "Farma Plus", Krasnodar
 
 Personal tasks:
 
@@ -77,40 +77,36 @@ Personal tasks:
 
 **August 1994 - June 1999**
 
-AB KubanBank, Krasnodar
+Joint-stock Bank "KubanBank", Krasnodar
 
 Development of decision support systems for planning departments, the head office and branches:
 
 * design and development of solutions for analyzing the activities of the bank (Oracle, Crystal Reports)
 * preparation of balance sheet for RCC (Paradox)
-* calculation of analytical indicators for user parameters
-* aggregation of branch data (calculation and forwarding)
+* calculation of analytical indicators for user parameters (Paradox)
+* aggregation of the branches (results of calculations and error logs) (Paradox)
 
 ## Key skills 
-
-* PostgreSQL
-* Linux
-* GoLang
-* Docker
-* Perl
-* Javascript (jQuery)
-* HTML
-
-## About me 
-
-### Development experience 
 
 * SQL (Oracle 1997-1999, PostgreSQL 1999 - present)
 * perl (1999 - 2015)
 * golang (2015 - present)
 * linux (first installed in 1998, stopped using other operating systems in 2002)
 * docker ([2014](https://github.com/LeKovr/consup/commit/0decc256f3ae5c6ae057c398105f0e1ec20dc591) - present)
+* javascript/jquery (2002 - present)
 
 Since 2015, the preferred programming language has changed from perl to golang. From now on everything that is not sql and bash, I write on golang. I am interested in participating in a large project in this language.
 
 Since 2006 I work remotely on a full time basis and would prefer to keep this mode. For offline, Stavropol and Krasnodar are currently available.
 
-Projects: 
+## Areas of professional interest
+
+* golang
+* postgresql
+* docker
+
+## Projects
+
 In these projects I was either the only developer or involved the team after implementing the key functionality.
 
 * 2017, dcape (docker, bash)
@@ -137,12 +133,6 @@ In these projects I was either the only developer or involved the team after imp
 * 1997, Client / server version of the bank balance analysis system (Oracle, PL / SQL, Delphi, Sybase Power Designer)
 * 1996, Bank Balance Analysis System (Borland Paradox / PAL)
 
-## Areas of professional interest
-
-* golang
-* postgresql
-* docker
-
 ## Education 
 
 Higher, 1989-1994, Kuban State University, Krasnodar Faculty: Applied Mathematics
@@ -164,5 +154,4 @@ Higher, 1989-1994, Kuban State University, Krasnodar Faculty: Applied Mathematic
 * +7 918 4304451
 * lekovr@gmail.com
 * https://github.com/LeKovr
-* since 2006 I work remotely, since 2010 I do not consider other options
 
