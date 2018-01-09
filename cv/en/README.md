@@ -1,9 +1,11 @@
 # Kovrizhkin Alexey Anatolyevich
 <img align="left" width="100" height="100" src="/static/img/ak100.png">
 
-> Pleasure in the job puts perfection in the work.
-> Aristotle
+<div dir="rtl" markdown="1">
+> _Pleasure in the job puts perfection in the work_
 
+> _Aristotle_
+</div>
 Programmer with an experience of over 20 years. backend programming mostly, but I have experience in administration and in the front. Not limited to coding and trying to do everything possible for the success of the project as a whole.
 
 # Experience 
