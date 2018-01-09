@@ -137,7 +137,7 @@ In these projects I was either the only developer or involved the team after imp
 * 1997, Client / server version of the bank balance analysis system (Oracle, PL / SQL, Delphi, Sybase Power Designer)
 * 1996, Bank Balance Analysis System (Borland Paradox / PAL)
 
-## Areas of professional interest: 
+## Areas of professional interest
 
 * golang
 * postgresql
@@ -147,6 +147,17 @@ In these projects I was either the only developer or involved the team after imp
 
 Higher, 1989-1994, Kuban State University, Krasnodar Faculty: Applied Mathematics
 
+## Languages 
+
+* Russian - native
+* English - I read professional literature
+
+## Interests
+
+* Bicycle
+* Skeet shooting
+* Travel
+
 ## Personal data 
 
 * 10/23/1972
@@ -155,7 +166,3 @@ Higher, 1989-1994, Kuban State University, Krasnodar Faculty: Applied Mathematic
 * https://github.com/LeKovr
 * since 2006 I work remotely, since 2010 I do not consider other options
 
-## Languages 
-
-* Russian - native
-* English - I read professional literature
