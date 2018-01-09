@@ -155,9 +155,9 @@ C 2006г работаю удаленно на полную ставку и пр�
 
 * 23.10.1972
 * +7 (918) 430 44 51
-* lekovr@gmail.com
-* https://github.com/LeKovr
+* [lekovr@gmail.com](mailto: lekovr@gmail.com)
+* [github.com/LeKovr](https://github.com/LeKovr)
 
 ---
 
-http://lekovr.github.io/cv/ru/
+[http://lekovr.github.io/cv/ru/](http://lekovr.github.io/cv/ru/)
