@@ -113,35 +113,37 @@ Since 2006 I work remotely on a full time basis and would prefer to keep this mo
 
 In these projects I was either the only developer or involved the team after implementing the key functionality.
 
-* 2017, dcape (docker, bash)
-* 2017, IPA of the tender system for dbrpc (plpgsql)
-* 2016, dbrpc (golang, postgresql)
+* 2017, [dcape](https://github.com/dopos/dcape) (docker, bash, golang)
+* 2017, metrinc. Metric increment service (golang, grpc, boltdb, docker)
+* 2017, API of the tender system for dbrpc (plpgsql)
+* 2016, [dbrpc](https://github.com/LeKovr/dbrpc) (golang, postgresql)
+* 2016, SMS-auth portal for network operator's Wi-Fi customers (golang, javascript)
 * 2015, store site generator by xls and md, customer request processing (go)
 * 2013, the generator of a site of shop on xls and md (perl)
 * 2012, Prototype of EDS, server and client (perl, bash)
-* 2012, formEV (javascript)
-* 2010, PGWS . JSON-RPC interface to stored database procedures (PostgreSQL / plpgsql, perl, javascript)
+* 2012, [formEV](https://github.com/LeKovr/formEV) (javascript)
+* 2010, [PGWS](https://github.com/LeKovr/pgws). JSON-RPC interface to stored database procedures (PostgreSQL / plpgsql, perl, javascript)
 * 2009, CCE. The emulator of work of the call-center, by order of OSS (PostgreSQL / plpgsql, OpenOffice.org Base)
 * 2008, JQ. The system of guaranteed charging based on the queue of tasks (perl, PostgreSQL / plpgsql)
 * 2008, JAST :: Wiki.System for documentation support (mod_perl)
 * 2007, JAST. The core of the b2b webserver project (mod_perl, PostgreSQL / plpgsql)
 * 2006, OverSSIDB. Database management web-interface (mod_perl, PostgreSQL / plpgsql)
 * 2005, "Hot" billing with support for loans and subscriptions (PostgreSQL / plpgsql, gnu-Radius)
-* 2004, OverSSI . Configurable via SSI web interface to the database (mod_perl, PostgreSQL / plpgsql)
+* 2004, [OverSSI](http://sourceforge.net/projects/overssi). Configurable via SSI web interface to the database (mod_perl, PostgreSQL / plpgsql)
 * 2003, Billing of the communication operator (mod_perl, PostgreSQL / plpgsql)
 * 2002, Library for constructing diagrams for XML specifications (Linux, C, libxml, libgd2)
-* 2001, the software for the servers publishing the price lists www.farma.ru, www.price.kuban.su (mod_perl, HTML :: Mason, PostgreSQL)
-* 2000, Corporate Internet environment (Linux)
+* 2001, Price list publishing system for www.farma.ru, www.price.kuban.su (mod_perl, HTML :: Mason, PostgreSQL)
+* 2000, Migration of Trade company's internet services to linux (apache, bind, proftpd, iptables, sendmail, dovecot)
 * 1999, System of publication of price lists (Perl, PostgreSQL)
 * 1999, The system of accounting for movement of goods and services for a service company (Delphi, Crystal Reports, MS Access)
 * 1997, Client / server version of the bank balance analysis system (Oracle, PL / SQL, Delphi, Sybase Power Designer)
 * 1996, Bank Balance Analysis System (Borland Paradox / PAL)
 
-## Education 
+## Education
 
 Higher, 1989-1994, Kuban State University, Krasnodar. Faculty of Applied Mathematics
 
-## Languages 
+## Languages
 
 * Russian - native
 * English - I read professional literature
