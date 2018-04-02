@@ -117,7 +117,7 @@
 В этих проектах я был или единственным разработчиком или привлекал команду после реализации ключевого функционала.
 
 * 2017, [dcape](https://github.com/dopos/dcape) (docker, bash, golang)
-* 2017, metrinc. Сервис сбора инкрементных метрик (golang, grpc, boltdb, docker)
+* 2017, [metricinc](https://github.com/LeKovr/metricinc). Сервис сбора инкрементных метрик (golang, grpc, boltdb, docker)
 * 2017, АПИ тендерной системы для dbrpc (plpgsql)
 * 2016, [dbrpc](https://github.com/LeKovr/dbrpc) (golang, postgresql)
 * 2016, Портал авторизации по СМС для Wi-Fi клиентов оператора связи (golang, javascript)

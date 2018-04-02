@@ -114,7 +114,7 @@ Since 2006 I work remotely on a full time basis and would prefer to keep this mo
 In these projects I was either the only developer or involved the team after implementing the key functionality.
 
 * 2017, [dcape](https://github.com/dopos/dcape) (docker, bash, golang)
-* 2017, metrinc. Metric increment service (golang, grpc, boltdb, docker)
+* 2017, [metricinc](https://github.com/LeKovr/metricinc). Metric increment service (golang, grpc, boltdb, docker)
 * 2017, API of the tender system for dbrpc (plpgsql)
 * 2016, [dbrpc](https://github.com/LeKovr/dbrpc) (golang, postgresql)
 * 2016, SMS-auth portal for network operator's Wi-Fi customers (golang, javascript)
