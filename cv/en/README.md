@@ -1,4 +1,4 @@
-# Kovrizhkin Alexey Anatolyevich
+# Kovrizhkin Aleksei Anatolyevich
 <img align="left" width="100" height="100" src="/static/img/ak100.png">
 
 <div dir="rtl" markdown="1">
