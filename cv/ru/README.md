@@ -23,7 +23,7 @@
 * golang (2015 - н.в.)
 * linux (впервые инсталлировал в 1998г, перестал использовать другие ОС в 2002г)
 * docker ([2014г](https://github.com/LeKovr/consup/commit/0decc256f3ae5c6ae057c398105f0e1ec20dc591) - н.в.)
-* javascript/jquery (2002 - н.в.)
+* javascript (2002 - н.в.)
 
 ## Что ищу
 
@@ -142,6 +142,7 @@
 
 В этих проектах я был или единственным разработчиком или привлекал команду после реализации ключевого функционала.
 
+* 2018, [apisite](https://github.com/apisite) (golang, postgresql)
 * 2018, [poma](https://github.com/pomasql/poma) (make, postgresql)
 * 2017, [dcape](https://github.com/dopos/dcape) (docker, make, golang)
 * 2017, [metricinc](https://github.com/LeKovr/metricinc). Сервис сбора инкрементных метрик (golang, grpc, boltdb, docker)

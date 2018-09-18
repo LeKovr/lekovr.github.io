@@ -10,9 +10,18 @@ Programmer with an experience of over 20 years. backend programming mostly, but 
 
 # Experience 
 
-## Head of IT department 
+## Remote contract worker
 
-**October 2009 - present time**
+**May 2015 — present time**
+
+* working on projects (including opensource) based on postgresql, golang, make, js, docker
+* remote IT teams management
+
+Remote work
+
+## Head of IT department
+
+**October 2009 - May 2015**
 
 [Tender.Pro](//www.tender.pro), Moscow
 
@@ -31,7 +40,7 @@ Programmer with an experience of over 20 years. backend programming mostly, but 
 
 Remote work
 
-## Lead coder 
+## Lead coder
 
 **August 2006 - October 2009**
 
@@ -97,7 +106,7 @@ Development of decision support systems for planning departments, the head offic
 * golang (2015 - present)
 * linux (first installed in 1998, stopped using other operating systems in 2002)
 * docker ([2014](https://github.com/LeKovr/consup/commit/0decc256f3ae5c6ae057c398105f0e1ec20dc591) - present)
-* javascript/jquery (2002 - present)
+* javascript (2002 - present)
 
 Since 2015, the preferred programming language has changed from perl to golang. From now on everything that is not sql and bash, I write on golang. I am interested in participating in a large project in this language.
 
@@ -113,6 +122,8 @@ Since 2006 I work remotely on a full time basis and would prefer to keep this mo
 
 In these projects I was either the only developer or involved the team after implementing the key functionality.
 
+* 2018, [apisite](https://github.com/apisite) (golang, postgresql)
+* 2018, [poma](https://github.com/pomasql/poma) (make, postgresql)
 * 2017, [dcape](https://github.com/dopos/dcape) (docker, bash, golang)
 * 2017, [metricinc](https://github.com/LeKovr/metricinc). Metric increment service (golang, grpc, boltdb, docker)
 * 2017, API of the tender system for dbrpc (plpgsql)
