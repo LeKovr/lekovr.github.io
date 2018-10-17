@@ -140,24 +140,24 @@
 
 ## Проекты
 
-В этих проектах я был или единственным разработчиком или привлекал команду после реализации ключевого функционала.
+В этих проектах я был единственным разработчиком или привлекал команду после реализации ключевого функционала.
 
-* 2018, [apisite](https://github.com/apisite) (golang, postgresql)
-* 2018, [poma](https://github.com/pomasql/poma) (make, postgresql)
-* 2017, [dcape](https://github.com/dopos/dcape) (docker, make, golang)
+* 2018, [apisite](https://github.com/apisite). SQL API для шаблонов и внешних клиентов (golang, postgresql)
+* 2018, [poma](https://github.com/pomasql/poma). Makefile для загрузки SQL в БД (make, postgresql)
+* 2017, [dcape](https://github.com/dopos/dcape). Makefile для деплоя сервисов (docker, make, golang)
 * 2017, [metricinc](https://github.com/LeKovr/metricinc). Сервис сбора инкрементных метрик (golang, grpc, boltdb, docker)
-* 2017, АПИ тендерной системы для dbrpc (plpgsql)
-* 2016, [dbrpc](https://github.com/LeKovr/dbrpc) (golang, postgresql)
+* 2017, АПИ тендерной системы (dbrpc, plpgsql)
+* 2016, [dbrpc](https://github.com/LeKovr/dbrpc). JSON-RPC Интерфейс к хранимым процедурам БД (golang, postgresql)
 * 2016, Портал авторизации по СМС для Wi-Fi клиентов оператора связи (golang, javascript)
-* 2015, генератор сайта магазина по xls и md, обработка запросов клиентов (golang)
-* 2013, генератор сайта магазина по xls и md (perl)
+* 2015, Генератор сайта магазина по xls и md, обработка запросов клиентов (golang)
+* 2013, Генератор сайта магазина по xls и md (perl)
 * 2012, Прототип УЦ ЭЦП, сервер и клиент (perl, bash)
-* 2012, [formEV](https://github.com/LeKovr/formEV) (javascript)
+* 2012, [formEV](https://github.com/LeKovr/formEV). Плагин jQuery для просмотра/редактирования форм (javascript)
 * 2010, [PGWS](https://github.com/LeKovr/pgws). JSON-RPC интерфейс к хранимым процедурам БД (PostgreSQL/plpgsql, perl, javascript)
 * 2009, CCE. Эмулятор работы колл-центра, по заказу ОСС (PostgreSQL/plpgsql, OpenOffice.org Base)
 * 2008, JQ. Система гарантированной тарификации на базе очереди задач (perl, PostgreSQL/plpgsql)
-* 2008, JAST::Wiki.Система поддержки документации (mod_perl)
-* 2007, JAST. Ядро вебсервера b2b проекта (mod_perl, PostgreSQL/plpgsql)
+* 2008, JAST::Wiki. Система поддержки документации (mod_perl)
+* 2007, [JAST](https://sourceforge.net/projects/overssi/files/overssi/0.45/). Ядро вебсервера b2b проекта (mod_perl, PostgreSQL/plpgsql)
 * 2006, OverSSIDB. БД управления web-интерфейсом (mod_perl, PostgreSQL/plpgsql)
 * 2005, "Горячий" биллинг с поддержкой кредитов и абонплат (PostgreSQL/plpgsql, gnu-Radius)
 * 2004, [OverSSI](http://sourceforge.net/projects/overssi). Конфигурируемый через SSI web-интерфейс к БД (mod_perl, PostgreSQL/plpgsql)
@@ -189,7 +189,7 @@
 
 * 23.10.1972
 * +7 (918) 430 44 51
-* [lekovr@gmail.com](mailto: lekovr@gmail.com)
+* [lekovr@gmail.com](mailto: lekovr+cv@gmail.com)
 * [github.com/LeKovr](https://github.com/LeKovr)
 
 ---

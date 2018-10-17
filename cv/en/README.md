@@ -99,7 +99,7 @@ Development of decision support systems for planning departments, the head offic
 * calculation of analytical indicators for user parameters (Paradox)
 * aggregation of the branches (results of calculations and error logs) (Paradox)
 
-## Key skills 
+## Key skills
 
 * SQL (Oracle 1997-1999, PostgreSQL 1999 - present)
 * perl (1999 - 2015)
@@ -122,22 +122,22 @@ Since 2006 I work remotely on a full time basis and would prefer to keep this mo
 
 In these projects I was either the only developer or involved the team after implementing the key functionality.
 
-* 2018, [apisite](https://github.com/apisite) (golang, postgresql)
-* 2018, [poma](https://github.com/pomasql/poma) (make, postgresql)
-* 2017, [dcape](https://github.com/dopos/dcape) (docker, bash, golang)
+* 2018, [apisite](https://github.com/apisite). Access to SQL API from templates and external clients (golang, postgresql)
+* 2018, [poma](https://github.com/pomasql/poma). Loading SQL sources into Postgresql via Makefile (make, postgresql)
+* 2017, [dcape](https://github.com/dopos/dcape). Setup Docker services via Makefile (docker, bash, golang)
 * 2017, [metricinc](https://github.com/LeKovr/metricinc). Metric increment service (golang, grpc, boltdb, docker)
 * 2017, API of the tender system for dbrpc (plpgsql)
-* 2016, [dbrpc](https://github.com/LeKovr/dbrpc) (golang, postgresql)
+* 2016, [dbrpc](https://github.com/LeKovr/dbrpc). JSON-RPC interface for database stored procedures (golang, postgresql)
 * 2016, SMS-auth portal for network operator's Wi-Fi customers (golang, javascript)
-* 2015, store site generator by xls and md, customer request processing (go)
-* 2013, the generator of a site of shop on xls and md (perl)
+* 2015, Site generator by xls and md, customer request processing (golang)
+* 2013, Site generator by xls and md (perl)
 * 2012, Prototype of EDS, server and client (perl, bash)
-* 2012, [formEV](https://github.com/LeKovr/formEV) (javascript)
+* 2012, [formEV](https://github.com/LeKovr/formEV). jQuery Form Edit/View plugin (javascript)
 * 2010, [PGWS](https://github.com/LeKovr/pgws). JSON-RPC interface to stored database procedures (PostgreSQL / plpgsql, perl, javascript)
 * 2009, CCE. The emulator of work of the call-center, by order of OSS (PostgreSQL / plpgsql, OpenOffice.org Base)
 * 2008, JQ. The system of guaranteed charging based on the queue of tasks (perl, PostgreSQL / plpgsql)
-* 2008, JAST :: Wiki.System for documentation support (mod_perl)
-* 2007, JAST. The core of the b2b webserver project (mod_perl, PostgreSQL / plpgsql)
+* 2008, JAST::Wiki. System for documentation support (mod_perl)
+* 2007, [JAST](https://sourceforge.net/projects/overssi/files/overssi/0.45/). The core of the b2b webserver project (mod_perl, PostgreSQL / plpgsql)
 * 2006, OverSSIDB. Database management web-interface (mod_perl, PostgreSQL / plpgsql)
 * 2005, "Hot" billing with support for loans and subscriptions (PostgreSQL / plpgsql, gnu-Radius)
 * 2004, [OverSSI](http://sourceforge.net/projects/overssi). Configurable via SSI web interface to the database (mod_perl, PostgreSQL / plpgsql)
@@ -165,11 +165,11 @@ Higher, 1989-1994, Kuban State University, Krasnodar. Faculty of Applied Mathema
 * Skeet shooting
 * Travel
 
-## Personal data 
+## Personal data
 
 * 10/23/1972
 * +7 (918) 430 44 51
-* [lekovr@gmail.com](mailto: lekovr@gmail.com)
+* [lekovr@gmail.com](mailto: lekovr+cv@gmail.com)
 * [github.com/LeKovr](https://github.com/LeKovr)
 
 ---
