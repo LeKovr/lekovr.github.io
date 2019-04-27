@@ -193,7 +193,6 @@
 ## Личные данные
 
 * 23.10.1972
-* +7 (918) 430 44 51
 * [lekovr@gmail.com](mailto: lekovr+cv@gmail.com)
 * [github.com/LeKovr](https://github.com/LeKovr)
 

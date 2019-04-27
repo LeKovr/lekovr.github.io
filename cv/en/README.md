@@ -170,7 +170,6 @@ Higher, 1989-1994, Kuban State University, Krasnodar. Faculty of Applied Mathema
 ## Personal data
 
 * 10/23/1972
-* +7 (918) 430 44 51
 * [lekovr@gmail.com](mailto: lekovr+cv@gmail.com)
 * [github.com/LeKovr](https://github.com/LeKovr)
 
