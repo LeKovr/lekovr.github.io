@@ -133,7 +133,7 @@ In these projects I was either the only developer or involved the team after imp
 * 2016, SMS-auth portal for network operator's Wi-Fi customers (golang, javascript)
 * 2015, Site generator by xls and md, customer request processing (golang)
 * 2013, Site generator by xls and md (perl)
-* 2012, Prototype of EDS, server and client (perl, bash)
+* 2012, Prototype of Certification Authority, server and client (perl, bash)
 * 2012, [formEV](https://github.com/LeKovr/formEV). jQuery Form Edit/View plugin (javascript)
 * 2010, [PGWS](https://github.com/LeKovr/pgws). JSON-RPC interface to stored database procedures (PostgreSQL / plpgsql, perl, javascript)
 * 2009, CCE. The emulator of work of the call-center, by order of OSS (PostgreSQL / plpgsql, OpenOffice.org Base)
