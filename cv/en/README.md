@@ -1,4 +1,4 @@
-# Kovrizhkin Aleksei Anatolyevich
+# Aleksei Kovrizhkin
 <img align="left" width="100" height="100" src="/static/img/ak100.png">
 
 <div dir="rtl" markdown="1">
@@ -6,11 +6,11 @@
 
 > _Aristotle_
 </div>
-Programmer with an experience of over 20 years. backend programming mostly, but I have experience in administration and in the front. Not limited to coding and trying to do everything possible for the success of the project as a whole.
+Programmer with an experience of over 20 years. Backend programming mostly, but I have experience in linux administration and front-end development. I am not limited to coding and trying to do everything possible for the success of the project as a whole.
 
-# Experience 
+## Experience
 
-## Remote contract worker
+### Remote contract worker
 
 **May 2015 — present time**
 
@@ -19,7 +19,7 @@ Programmer with an experience of over 20 years. backend programming mostly, but 
 
 Remote work
 
-## Head of IT department
+### Head of IT department
 
 **October 2009 - May 2015**
 
@@ -40,7 +40,7 @@ Remote work
 
 Remote work
 
-## Lead coder
+### Fullstack developer
 
 **August 2006 - October 2009**
 
@@ -53,7 +53,7 @@ Personal tasks:
 * development of the current, design and development of new versions of the kernel of the system (mod_perl, PostgreSQL)
 * design, development and maintenance of a subsystem of customer charging based on the task queue (plpgsql)
 
-## Head of the development and support group 
+### Head of the development and support group 
 
 **August 2002 - September 2009**
 
@@ -72,7 +72,7 @@ With the growth in the range of tasks to be performed, the structure of the unit
 * tariffication of partner traffic and error detection in partner charging systems (PostgreSQL)
 * preparation of reports and development of new reporting forms (mod_perl)
 
-## WWW programmer, system administrator 
+### WWW programmer, system administrator 
 
 **June 1999 - July 2002**
 
@@ -86,7 +86,7 @@ Personal tasks:
 * design a fault-tolerant solution for a corporate site (slave frontend - Apache, rsync)
 * building and administration of a network access system (firewall, email, proxy - Linux)
 
-## Chief Specialist of Programming Department of Automated Control Systems 
+### Chief Specialist of Programming Department of Automated Control Systems 
 
 **August 1994 - June 1999**
 
@@ -122,6 +122,8 @@ Since 2006 I work remotely on a full time basis and would prefer to keep this mo
 
 In these projects I was either the only developer or involved the team after implementing the key functionality.
 
+* 2019, [procapi](https://github.com/apisite/procapi) - API for Postgresql stored functions (golang)
+* 2019, [apitpl](https://github.com/apisite/apitpl) - API based template engine (golang)
 * 2018, [apisite](https://github.com/apisite). Access to SQL API from templates and external clients (golang, postgresql)
 * 2018, [poma](https://github.com/pomasql/poma). Loading SQL sources into Postgresql via Makefile (make, postgresql)
 * 2017, [dcape](https://github.com/dopos/dcape). Setup Docker services via Makefile (docker, bash, golang)
