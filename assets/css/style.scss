@@ -1,6 +1,18 @@
+---
+---
+
 @import "{{ site.theme }}";
 
-@media screen and (max-width: 64em) and (min-width: 42em)
 .page-header {
-    padding: 0;
+  @include large {
+    padding: 0rem 6rem;
+  }
+
+  @include medium {
+    padding: 0rem 4rem;
+  }
+
+  @include small {
+    padding: 0rem 1rem;
+  }
 }
