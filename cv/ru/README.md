@@ -171,33 +171,39 @@
 
 В этих проектах я был единственным разработчиком или привлекал команду после реализации ключевого функционала.
 
-* 2018, [apisite](https://github.com/apisite). SQL API для шаблонов и внешних клиентов (golang, postgresql)
-* 2018, [poma](https://github.com/pomasql/poma). Makefile для загрузки SQL в БД (make, postgresql)
+### Проекты, которые находились в продакшене более года
+
 * 2017, [dcape](https://github.com/dopos/dcape). Makefile для деплоя сервисов (docker, make, golang)
-* 2017, [metricinc](https://github.com/LeKovr/metricinc). Сервис сбора инкрементных метрик (golang, grpc, boltdb, docker)
-* 2017, Бэкенд тендерной системы (dbrpc, plpgsql)
 * 2016, [dbrpc](https://github.com/LeKovr/dbrpc). JSON-RPC Интерфейс к хранимым процедурам БД (golang, postgresql)
 * 2016, Портал авторизации по СМС для Wi-Fi клиентов оператора связи (golang, javascript, sqlite)
 * 2015, Генератор сайта магазина по xls и md, обработка запросов клиентов (golang)
 * 2013, Генератор сайта магазина по xls и md (perl)
-* 2012, Прототип Удостоверяющего Центра ЭЦП, сервер и клиент (perl, bash)
-* 2012, [formEV](https://github.com/LeKovr/formEV). Плагин jQuery для просмотра/редактирования форм (javascript)
 * 2010, [PGWS](https://github.com/LeKovr/pgws). JSON-RPC интерфейс к хранимым процедурам БД (PostgreSQL/plpgsql, perl, javascript)
-* 2009, CCE. Эмулятор работы колл-центра, по заказу ОСС (PostgreSQL/plpgsql, OpenOffice.org Base)
 * 2008, JQ. Система гарантированной тарификации на базе очереди задач (perl, PostgreSQL/plpgsql)
-* 2008, JAST::Wiki. Система поддержки документации (mod_perl)
 * 2007, [JAST](https://sourceforge.net/projects/overssi/files/overssi/0.45/). Ядро вебсервера b2b проекта (mod_perl, PostgreSQL/plpgsql)
-* 2006, OverSSIDB. БД управления web-интерфейсом (mod_perl, PostgreSQL/plpgsql)
 * 2005, "Горячий" биллинг с поддержкой кредитов и абонплат (PostgreSQL/plpgsql, gnu-Radius)
 * 2004, [OverSSI](http://sourceforge.net/projects/overssi). Конфигурируемый через SSI web-интерфейс к БД (mod_perl, PostgreSQL/plpgsql)
 * 2003, Биллинг телеком-оператора (mod_perl, PostgreSQL/plpgsql)
-* 2002, Библиотека построения диаграмм по XML спецификации (Linux, C, libxml, libgd2)
 * 2001, Сайты публикации прайс-листов для региональной газеты (www.price.kuban.su) и фарм компании (www.farma.ru) (mod_perl, HTML::Mason, PostgreSQL)
 * 2000, Миграция интернет-сервисов торговой компании на linux (apache, bind, proftpd, iptables, sendmail, dovecot)
-* 1999, Система публикации прайс-листов (Perl, PostgreSQL)
 * 1999, Система учета движения товаров и услуг для сервисной фирмы (Delphi, Crystal Reports, MS Access)
-* 1997, Клиент/серверная версия системы анализа баланса банка (Oracle,PL/SQL, Delphi, Sybase Power Designer)
 * 1996, Система расчета и консолидации экономических показателей филиалов банка (Borland Paradox/PAL)
+
+### Другие темы, которыми я занимался на уровне пилотов или подготовки к продакшену
+
+* 2019, Миграция пакетов Oracle в Postgresql
+* 2018, [apisite](https://github.com/apisite). SQL API для шаблонов и внешних клиентов (golang, postgresql)
+* 2018, [poma](https://github.com/pomasql/poma). Makefile для загрузки SQL в БД (make, postgresql)
+* 2017, [metricinc](https://github.com/LeKovr/metricinc). Сервис сбора инкрементных метрик (golang, grpc, boltdb, docker)
+* 2017, Бэкенд тендерной системы (dbrpc, plpgsql)
+* 2012, Прототип Удостоверяющего Центра ЭЦП, сервер и клиент (perl, bash)
+* 2012, [formEV](https://github.com/LeKovr/formEV). Плагин jQuery для просмотра/редактирования форм (javascript)
+* 2009, CCE. Эмулятор работы колл-центра, по заказу ОСС (PostgreSQL/plpgsql, OpenOffice.org Base)
+* 2008, JAST::Wiki. Система поддержки документации (mod_perl)
+* 2006, OverSSIDB. БД управления web-интерфейсом (mod_perl, PostgreSQL/plpgsql)
+* 2002, Библиотека построения диаграмм по XML спецификации (Linux, C, libxml, libgd2)
+* 1999, Система публикации прайс-листов (Perl, PostgreSQL)
+* 1997, Клиент/серверная версия системы анализа баланса банка (Oracle,PL/SQL, Delphi, Sybase Power Designer)
 
 ## Образование
 
