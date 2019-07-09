@@ -195,6 +195,7 @@
 ### Другие темы, которыми я занимался на уровне пилотов или подготовки к продакшену
 
 * 2019, Миграция пакетов Oracle в Postgresql
+* 2019, [fiwes](https://github.com/LeKovr/fiwes). Сервис формирования превью изображений
 * 2018, [apisite](https://github.com/apisite). SQL API для шаблонов и внешних клиентов (golang, postgresql)
 * 2018, [poma](https://github.com/pomasql/poma). Makefile для загрузки SQL в БД (make, postgresql)
 * 2017, [metricinc](https://github.com/LeKovr/metricinc). Сервис сбора инкрементных метрик (golang, grpc, boltdb, docker)
