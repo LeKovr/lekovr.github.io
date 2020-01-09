@@ -62,9 +62,8 @@ _Работа с удовольствием добавляет совершен�
 Хобби-проекты, которые я придумал и развиваю в свободное время:
 
 * [procapi](https://github.com/apisite/procapi) - API к хранимым процедурам Postgresql (golang)
-* [apitpl](https://github.com/apisite/apitpl) - Шаблонизатор с доступом к данным по API (golang)
 * [apisite](https://github.com/apisite/apisite) - Фреймворк на основе [procapi](https://github.com/apisite/procapi) и [apitpl](https://github.com/apisite/apitpl) (golang)
-* [poma](https://github.com/pomasql/poma) - Пакетная загрузка SQL в БД (make, postgresql)
+* [pgmig](https://github.com/pgmig/pgmig) - Пакетная загрузка SQL в БД (make, postgresql)
 * [dcape](https://github.com/dopos/dcape) - Деплой сервисов посредством `Makefile` и `docker-compose.yml` (docker, make, golang)
 
 ## Ключевые навыки
