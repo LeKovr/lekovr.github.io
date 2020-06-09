@@ -63,8 +63,8 @@ _Работа с удовольствием добавляет совершен�
 
 * [procapi](https://github.com/apisite/procapi) - API к хранимым процедурам Postgresql (golang)
 * [apisite](https://github.com/apisite/apisite) - Фреймворк на основе [procapi](https://github.com/apisite/procapi) и [apitpl](https://github.com/apisite/apitpl) (golang)
-* [pgmig](https://github.com/pgmig/pgmig) - Пакетная загрузка SQL в БД (make, postgresql)
-* [dcape](https://github.com/dopos/dcape) - Деплой сервисов посредством `Makefile` и `docker-compose.yml` (docker, make, golang)
+* [pgmig](https://github.com/pgmig/pgmig) - Пакетная загрузка SQL (миграции) в БД (golang, postgresql)
+* [dcape](https://github.com/dopos/dcape) - Деплой сервисов посредством `Makefile` и `docker-compose.yml` (docker, make, golang, gitea, traefik, postgresql)
 
 ## Ключевые навыки
 
