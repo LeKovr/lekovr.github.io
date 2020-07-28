@@ -2,10 +2,13 @@
 
 <img align="left" src="/static/img/ak18_150.jpg">
 
-<div dir="rtl" markdown="1">
+<div dir="rtl" markdown="1" height="160">
 _Работа с удовольствием добавляет совершенство в ее результат_
 
 > _Аристотель_
+
+
+
 <hr>
 </div>
 
