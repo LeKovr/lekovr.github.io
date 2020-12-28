@@ -1,0 +1,6 @@
+[[main]]
+  identifier = "CV"
+  name = "Резюме"
+  url = "cv"
+  weight = 1
+

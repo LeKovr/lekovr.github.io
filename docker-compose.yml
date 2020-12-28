@@ -1,0 +1,64 @@
+version: '2.1'
+
+services:
+
+  app:
+    image: ${IMAGE}${IMAGE_VER}
+    restart: always
+    command: --minify
+    labels:
+      - traefik.enable=true
+      - dcape.traefik.tag=${DCAPE_TAG}
+      - traefik.http.routers.app.rule=Host(`${APP_SITE:?Must be set}`)
+    volumes:
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+      - ${APP_ROOT}:/src
+    networks:
+      - lan
+
+  dev:
+    image: ${IMAGE}${IMAGE_VER}
+    restart: always
+    ports:
+      - 8080:1313
+    command: --debug server --bind 0.0.0.0 --appendPort=false -b http://${APP_SITE} --liveReloadPort=80 --disableFastRender
+    labels:
+      - traefik.enable=true
+      - dcape.traefik.tag=${DCAPE_TAG}
+      - traefik.http.routers.app.rule=Host(`${APP_SITE:?Must be set}`)
+    volumes:
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+      - ${APP_ROOT}:/src
+    networks:
+      - lan
+
+  www:
+    image: nginx:1.19.4-alpine
+    labels:
+      - traefik.enable=true
+      - dcape.traefik.tag=${DCAPE_TAG}
+      - traefik.http.routers.${APP_TAG}.rule=Host(`${APP_SITE:?Must be set}`)
+      # TLS support
+      - traefik.http.routers.${APP_TAG}.tls=${USE_TLS}
+      - traefik.http.routers.${APP_TAG}.tls.certresolver=letsEncrypt
+    volumes:
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+      # Show user's rel IP in logs
+      - ${APP_ROOT}/realip.conf:/etc/nginx/conf.d/realip.conf:ro
+      # Send gzipped static
+      - ${APP_ROOT}/gzip.conf:/etc/nginx/conf.d/gzip.conf:ro
+      # Enable local 404 eror page
+      - ${APP_ROOT}/enable404.sh:/docker-entrypoint.d/enable404.sh:ro
+      # Attach site content
+      - ${APP_ROOT}/public:/usr/share/nginx/html:ro
+    restart: always
+    networks:
+      - lan
+
+networks:
+  lan:
+    external:
+      name: ${DCAPE_NET}

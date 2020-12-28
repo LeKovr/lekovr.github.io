@@ -1,0 +1,14 @@
+[ru]
+  title = "LeKovr"
+  languageName = "русский"
+  weight = 1
+  contentdir = "content/ru"
+  logoText = "Алексей Коврижкин"
+
+[en]
+  title = "LeKovr"
+  languageName = "english"
+  weight = 2
+  contentdir = "content/en"
+  logoText = "Aleksei Kovrizhkin"
+

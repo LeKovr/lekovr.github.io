@@ -1,7 +1,19 @@
-# Aleksei Kovrizhkin
-<img align="left" width="100" height="100" src="/static/img/ak18_100.png">
+---
+title: "CV"
+description: "Curriculum vitae"
+date: 2020-12-25T14:09:21+09:00
+draft: false
+enableToc: yes
+image: /img/ak18_100.png
+aliases: [
+    "/cv/en/",
+]
+---
+
+<img align="left" width="100" height="100" src="/img/ak18_100.png" style="position: relative; z-index: 2;">
 
 <div dir="rtl" markdown="1">
+
 > _Pleasure in the job puts perfection in the work_
 
 > _Aristotle_
@@ -175,4 +187,4 @@ Higher, 1989-1994, Kuban State University, Krasnodar. Faculty of Applied Mathema
 
 ---
 
-[http://lekovr.github.io/cv/en/](http://lekovr.github.io/cv/en/)
+[http://lekovr.github.io/en/cv/](http://lekovr.github.io/en/cv/)
