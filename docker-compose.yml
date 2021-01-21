@@ -20,13 +20,12 @@ services:
   dev:
     image: ${IMAGE}${IMAGE_VER}
     restart: always
-    ports:
-      - 8080:1313
     command: --debug server --bind 0.0.0.0 --appendPort=false -b http://${APP_SITE} --liveReloadPort=80 --disableFastRender
     labels:
       - traefik.enable=true
       - dcape.traefik.tag=${DCAPE_TAG}
-      - traefik.http.routers.app.rule=Host(`${APP_SITE:?Must be set}`)
+      - traefik.http.routers.${APP_TAG}.rule=Host(`${APP_SITE:?Must be set}`)
+      - traefik.http.services.${APP_TAG}.loadbalancer.server.port=1313
     volumes:
       - /etc/timezone:/etc/timezone:ro
       - /etc/localtime:/etc/localtime:ro

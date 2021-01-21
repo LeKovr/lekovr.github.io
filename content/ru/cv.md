@@ -285,7 +285,7 @@ IT-команду, которая
 
 Чем я занимался с 2012 года в части github.com, удобнее смотреть так:
 
-* [codersrank](https://profile.codersrank.io/user/lekovr)
+* [codersrank](https://profile.codersrank.io/user/LeKovr)
 * [sourcerer](https://sourcerer.io/lekovr)
 
 PS. Эти ресурсы я применяю исключительно для отчетов о проделанной работе, объем коммитов сути сделанного не релевантен.
