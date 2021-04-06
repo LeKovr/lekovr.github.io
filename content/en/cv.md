@@ -3,8 +3,6 @@ title: "CV"
 description: "Curriculum vitae"
 date: 2020-12-25T14:09:21+09:00
 draft: false
-enableToc: yes
-image: /img/ak18_100.png
 aliases: [
     "/cv/en/",
 ]

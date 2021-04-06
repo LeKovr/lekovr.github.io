@@ -1,0 +1,30 @@
+
+
+/* Created using Style Master from Western Civilisation CSS1 { 237 4 451 409 } */
+
+.button {
+font-weight: bold;
+text-align: center;
+padding: 5px;
+margin: 0;
+}
+
+.button a {
+padding: 4px;
+text-decoration: none;
+width: 100px;
+color: #ffffff;
+background-color: #ff6600;
+border: 1px #ff9900 solid;
+border-left: 1px #ff9900 solid;
+border-bottom: 1px #333333 solid;
+border-right: 1px #333333 solid;}
+
+.button a:hover {
+background-color: #ff9900;
+color: #000000;
+border-top: 1px #333333 solid;
+border-left: 1px #333333 solid;
+border-bottom: 1px #ff9900 solid;
+border-right: 1px #ff9900 solid;}
+

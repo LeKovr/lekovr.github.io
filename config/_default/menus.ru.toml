@@ -1,6 +1,24 @@
 [[main]]
+  identifier = "projects"
+  name = "Проекты"
+  url = "projects"
+  weight = 2
+
+[[main]]
+  identifier = "notes"
+  name = "Заметки"
+  url = "notes"
+  weight = 3
+
+[[main]]
   identifier = "CV"
   name = "Резюме"
   url = "cv"
-  weight = 1
+  weight = 4
+
+[[main]]
+  identifier = "archive"
+  name = "Архив"
+  url = "archive"
+  weight = 5
 

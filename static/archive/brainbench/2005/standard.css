@@ -1,0 +1,94 @@
+/* standard styles */
+LI {
+margin-bottom: 5px;
+}
+
+.sitemap2
+{color: #ffffff;
+font-size:  10px;
+text-decoration: none}
+
+.sitemap
+{color: #FFFFFF;
+font-size:  10px;
+text-decoration: none}
+
+.white
+{background-color: #ffffff;
+border: 0;
+width:  100%}
+
+.required
+{color: #FF0000;}
+
+.blue
+{color: #0000CC;
+font-size:  11px;
+text-decoration: underline}
+
+.blue2
+{color: #0000CC;
+font-size:  11px;
+text-decoration: none}
+
+.author
+{
+font-size:  13px}
+
+.bigtext
+{
+font-size:  14px}
+
+.bigtext2
+{
+font-size:  13px}
+
+.body
+{
+font-size:  11px}
+
+.news
+{
+font-size:  11px}
+
+.commtitle2
+{
+font-size:  14px;
+font-weight: bold}
+
+.code
+{
+font-family: "Courier New", Courier, mono;
+font-size:  12px}
+
+.commbody
+{
+font-size:  12px}
+
+.dir
+{
+font-size:  12px}
+
+.options
+{
+font-size:  12px}
+
+.tm
+{
+font-size:  11px}
+
+.tc
+{
+font-size:  11px}
+
+.sitemap2:hover
+{
+text-decoration:underline;}
+
+.mono
+{font-family: Courier, monospace}
+
+.sublinks
+{
+font-size:  11px}
+
