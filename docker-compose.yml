@@ -47,11 +47,11 @@ services:
       - /etc/timezone:/etc/timezone:ro
       - /etc/localtime:/etc/localtime:ro
       # Show user's rel IP in logs
-      - ${APP_ROOT}/realip.conf:/etc/nginx/conf.d/realip.conf:ro
+      - ${APP_ROOT}/nginx/realip.conf:/etc/nginx/conf.d/realip.conf:ro
       # Send gzipped static
-      - ${APP_ROOT}/gzip.conf:/etc/nginx/conf.d/gzip.conf:ro
+      - ${APP_ROOT}/nginx/gzip.conf:/etc/nginx/conf.d/gzip.conf:ro
       # Enable local 404 eror page
-      - ${APP_ROOT}/enable404.sh:/docker-entrypoint.d/enable404.sh:ro
+      - ${APP_ROOT}/nginx/enable404.sh:/docker-entrypoint.d/enable404.sh:ro
       # Attach site content
       - ${APP_ROOT}/public:/usr/share/nginx/html:ro
     restart: always
