@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<graph:Plotting xmlns:graph="http://www.openvertex.com/simple-chart">
+    <graph:Chart Type="Bar">
+	    
+	<graph:Label>Graph Example</graph:Label>
+
+	<graph:Image 
+	    Width="300" 
+	    Height="200">
+	    <graph:Interlaced />
+	    <graph:Background Color="#000001" />    
+	    <graph:Text Color="#FF0000" />    
+	</graph:Image>
+
+	<graph:Fills>
+	    <graph:Fill Color="#0000FF" />
+	    <graph:Fill Color="#00FF00" />
+	    <graph:Fill Color="#00FFFF" />
+	    <graph:Fill Color="#FF0000" />
+	    <graph:Fill Color="#FF00FF" />
+	    <graph:Fill Color="#FFFF00" />
+	    <graph:Fill Color="#AAAAAA" />
+
+	</graph:Fills>
+
+	<graph:DataSets>
+    	    <graph:DataSet>
+    		<graph:Label>Dataset 1</graph:Label> 
+		<graph:SupressValue></graph:SupressValue>
+		<graph:SupressPercent></graph:SupressPercent>
+    		<graph:Items>
+    		    <graph:Item Value="30" />
+    		    <graph:Item Value="40" />
+    		    <graph:Item Value="55" />
+    		    <graph:Item Value="77" />
+    		    <graph:Item Value="33" />
+    		    <graph:Item Value="91" />
+    		    <graph:Item Value="20" />
+    		</graph:Items>
+    	    </graph:DataSet>
+	</graph:DataSets>
+
+    </graph:Chart>
+</graph:Plotting>

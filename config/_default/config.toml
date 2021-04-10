@@ -11,6 +11,7 @@ timeout = 10000
 enableEmoji = true
 paginate = 13
 rssLimit = 100
+relativeURLs = true
 
 googleAnalytics = "UA-65189513-3"
 

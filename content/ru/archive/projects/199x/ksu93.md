@@ -1,6 +1,6 @@
 ---
-title: "КубГУ"
-description: "Некоторые проекты из 93 года"
+title: "Си и Модула"
+description: "зачетные задачи"
 date: 1993
 draft: false
 enableToc: true
