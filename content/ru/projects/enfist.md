@@ -3,27 +3,23 @@ title: "enfist"
 date: 2020-01-30T00:38:25+09:00
 description: хранилище файлов конфигурации в postgresql с доступом через браузер и АПИ
 draft: false
+enableToc: false
 weight: 5
 ---
 
- Приложение |  [enfist](https://github.com/apisite/app-enfist)
+ Github |  [enfist](https://github.com/apisite/app-enfist)
  -- | --
- Docker | [apisite/enfist](https://hub.docker.com/r/apisite/enfist)
  Назначение | хранилище файлов конфигурации в postgresql с доступом через браузер и АПИ
+ Использование | [в составе dcape](https://dopos.github.io/dcape/baseapps/enfist/)
+ Docker | [apisite/enfist](https://hub.docker.com/r/apisite/enfist)
 
-**Enfist** - это сервис хранения конфигураций приложений. Конфигурации хранятся в БД в виде Key-value таблицы, где ключ (key) формируется из адреса git репозитория `organization--repo_name--branch` (`организация--проект--ветка`), а значение (value) - содержимое `.env` файла.
+Сервис **enfist** создавался как составная часть проекта [dcape](https://dopos.github.io/dcape/), включен в его состав в 2018м году, и с того времени находится в продакшене. Описание работы с **enfist** включено в [документацию dcape](https://dopos.github.io/dcape/baseapps/enfist/).
 
-Доступ к хранилищу ограничивается [narra](/dcape/baseapps/narra) и осуществляется через фронтенд **dcape**.
+Если коротко, то приложение позволяет работать со списком и содержимым файлов конфигурации через web-интерфейс и через API, при этом документация к API генерируется программно.
 
-Кроме веб-интерфейса, работа с конфигурациями запуска может осуществляться посредством [dcape-config-cli](https://github.com/dopos/dcape-config-cli).
-Примеры команд, доступных после клонирования (git clone) и настройки (make .env) dcape-config-cli:
+Если посмотреть на [исходный код](https://github.com/apisite/app-enfist), то можно увидеть там только `SQL`, `js` и статику, которые реализуют бизнес-логику (модуль [pomasql/enfist](https://github.com/pomasql/enfist)) и интерфейс (в `static/` и `tmpl/`). Для того, чтобы из этого получить работающий сервис, [используется](https://github.com/apisite/app-enfist/blob/master/Dockerfile#L1) фреймфорк [apisite](https://github.com/apisite/apisite).
 
-* `make get TAG=name` - получить из хранилища конфигурацию для ключа (тега) `name` и сохранить в файл `name.env`
-* `make set TAG=name` - загрузить файл `name.env` в хранилище с ключом (тегом) `name`
+Т.о., проект решает две задачи
 
-Тег содержит значение, равное ключу БД Key-value хранилища: `organization--name_of_repo--branch` (`организация--проект--ветка`)
-
-В файле конфигурации dcape-config-cli задается два параметра:
-
-* `ENFIST_URL` - адрес сервиса enfist
-* `CIS_TOKEN` - токен для авторизации в gitea
+* функциональную - сервис хранения конфигураций для CI/CD системы
+* демонстрационную - как пример использующего БД golang-сервиса с API, для создания которого не понадобилось писать код на golang
