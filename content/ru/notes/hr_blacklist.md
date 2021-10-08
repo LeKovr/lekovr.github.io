@@ -1,8 +1,8 @@
 ---
 title: "HR blacklist"
-description: "Мой личный список компаний, вакансии которы мне не интересны"
+description: "Мой личный список компаний, вакансии которых мне не интересны"
 date: 2021-10-07
-draft: false
+draft: true
 enableToc: true
 ---
 
