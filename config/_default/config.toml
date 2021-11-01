@@ -1,4 +1,4 @@
-baseURL = "https://lekovr.github.io"
+baseURL = "https://lekovr.github.io/"
 title = "LeKovr"
 theme = "zdoc"
 
