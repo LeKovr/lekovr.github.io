@@ -1,6 +1,6 @@
 ---
-title: "Зачем opensource"
-description: "Почему меня интересует, есть ли у нанимателя публичные проекты"
+title: "opensource"
+description: "Зачем публиковать исходный код"
 date: 2021-12-04
 draft: false
 enableToc: true
