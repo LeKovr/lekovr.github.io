@@ -32,28 +32,29 @@ select r.*
 , abs.abs_rank
 , cl.cl_rank
 from results r
-left join (
-  select
-    id
-  , row_number() over() as abs_rank
-  from results where in_abs=1
-) abs
-using(id)
-,
-lateral  (
-select * --coalesce(cl_rank,null) as cl_rank 
-from (
-select
- id,
- case when r.cl_next is null then null else
-   row_number() over(partition by cl_next order by drv1_id)
- end as cl_rank
- from results r2 where
-  r.cl_next is null or
-  r.cl_next = any(r2.cls)
-) cll
-where id = r.id
-) cl
+  left join (
+    select
+      id
+    , row_number() over() as abs_rank
+    from results where in_abs=1
+  ) abs using(id)
+  , lateral  (
+      select * --coalesce(cl_rank,null) as cl_rank 
+        from (
+          select
+            id
+          , case when r.cl_next is null then 
+              null
+            else 
+              row_number() over(partition by cl_next order by drv1_id)
+            end as cl_rank
+          from results r2 
+          where
+            r.cl_next is null or
+            r.cl_next = any(r2.cls)
+        ) cll
+      where id = r.id
+  ) cl
 ;
 ```
 
