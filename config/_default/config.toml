@@ -13,7 +13,7 @@ paginate = 13
 rssLimit = 100
 relativeURLs = true
 
-googleAnalytics = "UA-65189513-3"
+googleAnalytics = "G-ZNF3WY08V5"
 
 disableKinds = ["taxonomyTerm"]
 
