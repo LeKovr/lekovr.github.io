@@ -35,7 +35,7 @@ enableToc: true
 ```go
 type Config struct {
         Addr        string `long:"http_addr" default:"localhost:8080"  description:"Http listen address"`
-        
+
         FS  lookupfs.Config `group:"Filesystem Options" namespace:"fs" env-namespace:"FS"`
         API procapi.Config  `group:"API Options" namespace:"api" env-namespace:"API"`
 }
@@ -50,7 +50,7 @@ type Config struct {
 
 ## pg
 
-Однажды, в [mqbridge](), мне понадобилось работать с каналом (`db.Listen(channel).Channel()`), для этого я выбрал [go-pg](https://github.com/go-pg/pg/v9). В остальных случаях использую [pgx](https://github.com/jackc/pgx/v4)
+Однажды, в [mqbridge](https://github.com/LeKovr/mqbridge), мне понадобилось работать с каналом (`db.Listen(channel).Channel()`), для этого я выбрал [go-pg](https://github.com/go-pg/pg/v9). В остальных случаях использую [pgx](https://github.com/jackc/pgx/v4)
 
 ## embedding
 
