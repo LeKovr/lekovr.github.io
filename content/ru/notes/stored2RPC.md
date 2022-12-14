@@ -1,3 +1,10 @@
+---
+title: "Хранимки и RPC"
+description: "Взгляд на RPC со стороны хранимок"
+date: 2022-12-14
+draft: false
+enableToc: true
+---
 # Взгляд на RPC со стороны хранимок
 
 ## Предисловие
