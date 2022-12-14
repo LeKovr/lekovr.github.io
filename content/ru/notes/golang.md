@@ -19,8 +19,8 @@ enableToc: true
 ## log
 
 * для случаев, отличных от примитивных, необходима возможность парсить логи приложения. Тут мой выбор - [structured logging](https://www.client9.com/structured-logging-in-golang/) и вариант его реализации - [zap](https://github.com/uber-go/zap)
-* вместе с этим, зашивать конкретную имплементацию журналирования мне представляется не оптимальным, поэтому в пакетах использую [logr](github.com/go-logr/logr)
-* в тестах, если надо собрать логи и потом проанализировать, я использую [genericr](github.com/wojas/genericr)
+* вместе с этим, зашивать конкретную имплементацию журналирования мне представляется не оптимальным, поэтому в пакетах использую [logr](https://github.com/go-logr/logr)
+* в тестах, если надо собрать логи и потом проанализировать, я использую [genericr](https://github.com/wojas/genericr)
 
 ## log usage
 
@@ -30,7 +30,7 @@ enableToc: true
 
 ## config
 
-Для конфигурации приложения наиболее характерный пример для меня - использование библиотеки, у которой есть свой конфиг, при обновлении которого я бы не хотел ничего менять в своем приложении. Я использую [go-flags](github.com/jessevdk/go-flags) и выглядит это так:
+Для конфигурации приложения наиболее характерный пример для меня - использование библиотеки, у которой есть свой конфиг, при обновлении которого я бы не хотел ничего менять в своем приложении. Я использую [go-flags](https://github.com/jessevdk/go-flags) и выглядит это так:
 
 ```go
 type Config struct {
@@ -50,14 +50,14 @@ type Config struct {
 
 ## pg
 
-Однажды, в [mqbridge](), мне понадобилось работать с каналом (`db.Listen(channel).Channel()`), для этого я выбрал [go-pg](github.com/go-pg/pg/v9). В остальных случаях использую [pgx](github.com/jackc/pgx/v4)
+Однажды, в [mqbridge](), мне понадобилось работать с каналом (`db.Listen(channel).Channel()`), для этого я выбрал [go-pg](https://github.com/go-pg/pg/v9). В остальных случаях использую [pgx](https://github.com/jackc/pgx/v4)
 
 ## embedding
 
 Выбор пакета для меня определяется ответом на вопрос - "Нужна ли UnionFS" (т.е. возможность локальным файлом заменить какой-то файл из дистрибутива)
 
 * если нужна - [go-imbed](https://github.com/growler/go-imbed)
-* если нет - [parcello](github.com/phogolabs/parcello)
+* если нет - [parcello](https://github.com/phogolabs/parcello)
 
 Начиная с go 1.16, первичный вариант решения - `embed`
 
