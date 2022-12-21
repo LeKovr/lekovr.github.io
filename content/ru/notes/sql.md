@@ -9,7 +9,7 @@ enableToc: true
 В SQL мне наиболее интересна работа с хранимым кодом в PostgreSQL, но до того, чтобы собрать отдельный справочник, руки пока не доходят. Поэтому наполнение этой страницы еще в начальной стадии
 
 
-## Пример теста
+## Пример теста {#testing}
 
 ```sql
 SAVEPOINT test_begin;
@@ -17,7 +17,8 @@ select pgmig.assert_count(1);
 -- ----------------------------------------------------------------------------
 SELECT pgmig.pkg_op_before('init', 'test_pgmig', 'v0.0', 'git');
 SELECT pgmig.assert_eq('pkg_op_before'
-, (SELECT jsonb_build_object('code',code,'version',version) FROM pgmig.pkg where code='test_pgmig')
+, (SELECT jsonb_build_object('code',code,'version',version)
+     FROM pgmig.pkg where code='test_pgmig')
 , '{
         "version": "v0.0",
         "code": "test_pgmig"
@@ -25,7 +26,7 @@ SELECT pgmig.assert_eq('pkg_op_before'
 );
 ROLLBACK TO SAVEPOINT test_begin;
 ```
-## Мой топ в апреле 2022
+## Мой топ в апреле 2022 {#hard-2022}
 
 ```sql
 select r.*
