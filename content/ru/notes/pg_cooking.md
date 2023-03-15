@@ -2,7 +2,7 @@
 title: "Готовим Postgresql"
 description: "Мой план по работе с Postgresql"
 date: 2022-01-21
-draft: false
+draft: true
 enableToc: true
 ---
 
