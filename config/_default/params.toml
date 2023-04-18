@@ -75,3 +75,8 @@ commento = false
   enable = false
   scriptSrc = "" # "https://isso.example.com/js/embed.min.js"
   dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
+
+[umami]
+  enable = false
+  websiteId = "2ee9f981-9125-465e-a2cc-f94b6141c7df"
+  jsLocation = "http://umami.dev.lan/script.js"
