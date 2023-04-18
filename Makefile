@@ -16,7 +16,7 @@ DCAPE_NET       ?= dcape
 
 IMAGE                ?= klakegg/hugo
 IMAGE_VER            ?= :0.79.0-pandoc-ci
-DC_IMAGE             ?= docker/compose
+DC_IMAGE             ?= dcape-compose
 DC_VER               ?= latest
 
 define CONFIG_DEF
