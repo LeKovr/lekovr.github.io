@@ -4,23 +4,22 @@ description: "Алексей Коврижкин. Резюме"
 draft: false
 enableToc: yes
 enableMenu: false
-enableNavbar: false
-enableBreadcrumb: false
 enableFooter: false
 showPoweredBy: false
 
 aliases: [
     "/cv/ru/",
 ]
-image: /img/nikko18_23s.png
+image: /img/ak18_150.jpg
 ---
 
-<img align="left" width="120" height="120" src="/img/nikko18_23s.png" style="position: relative; z-index: 2;">
+<img align="left" width="150" height="150" src="/img/ak18_150.jpg">
 
-<div dir="rtl" markdown="1" style="margin-left:150px; height:150px">
+<div dir="rtl" markdown="1" style="margin-left:15rem; height:15rem">
 
-> Работа с удовольствием добавляет совершенство в ее результат
-> _Аристотель_
+_Работа с удовольствием добавляет совершенство в ее результат_
+
+_Аристотель_
 
 </div>
 
