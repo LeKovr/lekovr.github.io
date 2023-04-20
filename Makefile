@@ -14,8 +14,8 @@ APP_ROOT        ?= $(PWD)
 DCAPE_TAG       ?= dcape
 DCAPE_NET       ?= dcape
 
-IMAGE                ?= klakegg/hugo
-IMAGE_VER            ?= :0.79.0-pandoc-ci
+IMAGE                ?= peaceiris/hugo
+IMAGE_VER            ?= 0.110.0
 DC_IMAGE             ?= dcape-compose
 DC_VER               ?= latest
 
