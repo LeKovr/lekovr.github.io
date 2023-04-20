@@ -77,6 +77,6 @@ commento = false
   dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
 
 [umami]
-  enable = false
-  websiteId = "2ee9f981-9125-465e-a2cc-f94b6141c7df"
+  enable = true
+  websiteId = "926cc58c-7c82-41da-89e0-373c062c7c49"
   jsLocation = "http://umami.dev.lan/script.js"
