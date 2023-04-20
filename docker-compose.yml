@@ -3,7 +3,7 @@ version: '2.1'
 services:
 
   app:
-    image: ${IMAGE}${IMAGE_VER}
+    image: ${IMAGE}:${IMAGE_VER}
     restart: always
     command: --minify
     labels:
@@ -19,7 +19,7 @@ services:
       - lan
 
   dev:
-    image: ${IMAGE}${IMAGE_VER}
+    image: ${IMAGE}:${IMAGE_VER}
     restart: always
     command: --debug server --bind 0.0.0.0 --appendPort=false -b http://${APP_SITE} --liveReloadPort=80 --disableFastRender
     labels:
