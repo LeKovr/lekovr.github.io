@@ -254,10 +254,7 @@ WWW-программист, системный администратор
 * [dopos](https://dopos.github.io/) - Настройка и развёртывание docker-приложений на выделенном сервере (docker, make, golang, gitea, traefik, postgresql)
 * [pgmig](https://github.com/pgmig/pgmig) - Пакетная загрузка SQL (миграции) в БД (golang, postgresql)
 * [procapi](https://github.com/apisite/procapi) - API к хранимым процедурам Postgresql (golang)
-* [apisite](https://github.com/apisite/apisite) - Фреймворк на основе [procapi](https://github.com/apisite/procapi) и [apitpl](https://github.com/apisite/apitpl) (golang)
-
-* 2019, [pgmig](https://github.com/pgmig/pgmig). библиотека и утилита загрузки SQL в postgresql (golang, postgresql)
-* 2018, [apisite](https://github.com/apisite). SQL API для шаблонов и внешних клиентов (golang, postgresql)
+* [apisite](https://github.com/apisite/apisite) - SQL API для шаблонов и внешних клиентов на основе [procapi](https://github.com/apisite/procapi) и [apitpl](https://github.com/apisite/apitpl) (golang)
 
 Прошлые проекты, которыми я занимался на уровне пилотов или подготовки к продакшену
 
