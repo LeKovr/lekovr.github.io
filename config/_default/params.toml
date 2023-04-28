@@ -80,3 +80,7 @@ commento = false
   enable = true
   websiteId = "c510c297-0118-4ac5-847b-1e94b70437f3"
   jsLocation = "https://sau.cr.elfire.ru/script.js"
+
+[plausible]
+  enable = true
+  jsLocation = "https://sap.cr.elfire.ru/js/script.js"
