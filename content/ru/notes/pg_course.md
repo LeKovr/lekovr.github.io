@@ -66,7 +66,8 @@ _Обратная связь_
 ### [13. Concurrency Control](https://www.postgresql.org/docs/current/mvcc.html)
 
 1. чаще всего используется `Read Committed`, стоит добавить задачи, для которых подошли бы другие уровни
-2. для отработки примеров подойдет https://uibakery.io/sql-playground 
+2. для отработки примеров подойдет https://uibakery.io/sql-playground
+3. еще полезное про блокировки - `SELECT ... FOR UPDATE SKIP LOCKED`
 
 ### [14.1. Using EXPLAIN](https://www.postgresql.org/docs/current/using-explain.html)
 
