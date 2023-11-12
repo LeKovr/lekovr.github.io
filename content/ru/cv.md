@@ -10,10 +10,10 @@ showPoweredBy: false
 aliases: [
     "/cv/ru/",
 ]
-image: /img/ak18_150.jpg
+image: /img/ak23_200.jpg
 ---
 
-<img align="left" width="150" height="150" src="/img/ak23_200.jpg">
+<img align="left" width="200" height="200" src="/img/ak23_200.jpg">
 
 <div dir="rtl" markdown="1" style="margin-left:15rem; height:15rem">
 
