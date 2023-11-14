@@ -287,7 +287,6 @@ WWW-программист, системный администратор
 ## Версия для печати
 
 * [career.habr.com](/archive/cv-lekovr-habr.pdf)
-* [hh.ru](/archive/cv-lekovr-hh.pdf)
 
 ---
 
