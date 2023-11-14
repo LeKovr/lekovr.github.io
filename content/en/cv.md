@@ -8,7 +8,7 @@ aliases: [
 ]
 ---
 
-<img align="left" width="100" height="100" src="/img/ak18_100.png" style="position: relative; z-index: 2;">
+<img align="left" width="100" height="100" src="/img/ak23_200.jpg" style="position: relative; z-index: 2;">
 
 <div dir="rtl" markdown="1">
 
