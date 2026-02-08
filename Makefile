@@ -74,13 +74,7 @@ down: dc
 # Thish works if path is the same for host, docker, docker-compose and child container
 ## run $(CMD) via docker-compose
 dc: docker-compose.yml
-	@docker run --rm  -i \
-  -v /var/run/docker.sock:/var/run/docker.sock \
-  -v $$PWD:$$PWD -w $$PWD \
-  -e DCAPE_TAG -e DCAPE_NET -e APP_ROOT -e APP_TAG \
-  $(DC_IMAGE):$$DC_VER \
-  -p $(APP_TAG) --env-file $(CFG) \
-  $(CMD)
+	@docker compose $(CMD)
 
 # ------------------------------------------------------------------------------
 ## hugo commands
